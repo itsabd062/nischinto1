@@ -4443,6 +4443,7 @@ input[type="button"].btn-block {
     display: flex !important;
     -ms-flex-preferred-size: auto;
     flex-basis: auto;
+    color: #000;
   }
   .navbar-expand-sm .navbar-toggler {
     display: none;
@@ -4485,6 +4486,7 @@ input[type="button"].btn-block {
     display: flex !important;
     -ms-flex-preferred-size: auto;
     flex-basis: auto;
+    color: #000;
   }
   .navbar-expand-md .navbar-toggler {
     display: none;
@@ -4527,6 +4529,7 @@ input[type="button"].btn-block {
     display: flex !important;
     -ms-flex-preferred-size: auto;
     flex-basis: auto;
+    color: #000;
   }
   .navbar-expand-lg .navbar-toggler {
     display: none;

@@ -22,23 +22,26 @@ h6 {
   font-weight: 600;
   line-height: 1.2em; }
 
+  .headercolor{
+    background-color: rgb(192, 192, 192);
+  }
 h1 {
-  font-size: 40px; }
+  font-size: 45px; }
 
 h2 {
-  font-size: 34px; }
+  font-size: 39px; }
 
 h3 {
-  font-size: 26px; }
+  font-size: 31px; }
 
 h4 {
-  font-size: 22px; }
+  font-size: 27px; }
 
 h5 {
-  font-size: 18px; }
+  font-size: 23px; }
 
 h6 {
-  font-size: 15px; }
+  font-size: 20px; }
 
 p {
   margin-bottom: 12px; }
@@ -68,12 +71,10 @@ img {
   border: 0;
   max-width: 100%;
   height: auto; }
-.st-hero-social-group{
-  background-image: url(../images/background1.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
+
+  .logo{
+    width: 50px;
+  }
 a {
   color: inherit;
   -webkit-transition: all 0.3s ease;
@@ -145,7 +146,9 @@ a:hover {
   
 }
 
-
+.plc{
+  padding-left: 400px;
+}
 
  
 @media screen and (max-width: 991px) {
@@ -193,7 +196,9 @@ a:hover {
   bottom: 0;
   left: 0;
   overflow: hidden; }
-
+.top_header{
+  background-color: white !important;
+}
 .st-gray-bg {
   background-color: #f9fafc; }
 
@@ -986,7 +991,6 @@ hr {
   position: fixed;
   z-index: 200;
   width: 100%;
-  top: 0;
   left: 0; }
 
 .st-site-branding {
@@ -5099,11 +5103,8 @@ hr {
 .navbar-brand img{
   width: 100%;
 }
-.nav-colored{
-  background-color: var(--red)!important;
-}
 .navbar-toggler{
-  border-color: var(--white)!important;
+  border-color: var(--black)!important;
 }
 .navbar{
   z-index: 10;
@@ -5129,20 +5130,20 @@ hr {
   background-color: transparent;
 }
 .navbar-nav .nav-link{
-  color: var(--white)!important;
+  color: var(--black)!important;
 }
 .navbar-toggler{
   outline: none!important;
 } 
 .nav-btn .btn{
-  background-color: var(--white);
-  border-color: var(--white);
+  background-color: var(--black);
+  border-color: var(--black);
   color: var(--red);
 }
 .nav-btn .btn:hover{
-  background-color: #ff787c;
+  background-color: transparent;
   border-color: #ff787c;
-  color: var(--white);
+  color: var(--black);
 }
 
 .nav-btn{
@@ -5153,3 +5154,7 @@ hr {
 .pl{
   text-align: right;
 }
+
+
+
+

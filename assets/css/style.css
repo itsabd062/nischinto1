@@ -149,7 +149,9 @@ a:hover {
 .plc{
   padding-left: 400px;
 }
-
+.plcl{
+  padding-left: 100px;
+}
  
 @media screen and (max-width: 991px) {
   body, html {
